@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/estiloRegistro.css">
+    <title>Formulario de registro</title>
+</head>
+<body>
+    <header>
+        <img class="logo" src="img/logo.png" alt="logo">
+        <h1>Registro Clientes</h1>
+    </header>
+    
+<div class="form-container">
+    <form>
+    <div class="form-row">
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre">
+    </div>
+
+    <div class="form-row">
+        <label for="apellido">Apellido:</label>
+        <input type="text" id="apellido" name="apellido">
+    </div>
+
+    <div class="form-row">
+    <label for="tipo-documento">Tipo de documento:</label>
+    <select id="tipo-documento" name="tipo-documento">
+        <option value="dni">DNI</option>
+        <option value="cedula">Cédula</option>
+        <option value="pasaporte">Pasaporte</option>
+    </select>
+    </div>
+
+    <div class="form-row">
+    <label for="documento">Número de documento:</label>
+    <input type="text" id="documento" name="documento">
+    </div>
+
+    <div class="form-row">
+        <label for="direccion">Dirección:</label>
+        <input type="text" id="direccion" name="direccion">
+    </div>
+
+    <div class="form-row">
+        <label for="celular">Número de celular:</label>
+        <input type="tel" id="celular" name="celular">
+    </div>
+
+    <div class="form-row">
+        <label for="pago">Método de pago:</label>
+        <select id="pago" name="pago">
+        <option value="tarjeta">Tarjeta de crédito</option>
+        <option value="transferencia">Transferencia bancaria</option>
+        <option value="paypal">Paypal</option>
+        </select>
+        <br></br>
+        <button type="submit" ><strong>Enviar</strong></button>
+    </div>
+    </div>
+
+</form>
+
+</div>
+
+<div class="menu">
+    <ul>
+        <li> <a href="index.html">Inicio</a></li>
+
+        <li> <a href="entradas.html">Entradas Basicas</a></li>
+        <li> <a href="registro.html"class="activo">Registro</a></li>
+        <li> <a href="login.html">Iniciar Sesion</a></li>
+        <li> <a href="buscar.html">Form Busqueda</a></li>
+        <li> <a href="validar.html">Form Validacion</a></li>
+    </ul>
+
+</div>
+
+
+</body>
+</html>
+

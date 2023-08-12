@@ -15,7 +15,7 @@ estilo Global
 }
 
 body {
-    background-image: url(../img/smart.jpg);
+    background-image: url(../img/fondo.png);
     background-size: cover;
 }
 
@@ -72,8 +72,8 @@ estilo Contenido
 p {
     font-family: 'Times New Roman', Times, serif;
     text-align: justify;
-    border-radius: 10%;
-    background-color: cadetblue;
+    border-radius: 2%;
+    background-color: rgb(85, 30, 214);
     color: aliceblue;
 }
 
@@ -82,7 +82,7 @@ p {
     float: right;
     padding: 40px;
     position: relative;
-    border-radius: 15px;
+    border-radius: 20px;
 }
 
 

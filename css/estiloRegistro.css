@@ -23,6 +23,7 @@ header {
     position: relative;
 }
 
+
 .form-container {
     background-image: url(../img/smart.jpg);
     background-size: cover;
@@ -117,3 +118,56 @@ ul li a.activo {
 ul li a:hover {
     opacity: 1;
 }
+/*
+body{
+    background-color: black;
+}
+
+section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+input{
+    border-color: var(--second-color);
+    background-color: black;
+    color: var(--second-color);
+    border-style: solid;
+    font-size: 120%;
+    padding: 0.5%;
+}
+
+.form__label{
+    font-family: 'Pathway Gothic One', sans-serif;
+    font-weight: bold;
+    color: white;
+}
+
+fieldset{
+    padding: 3%;
+}
+
+.input-container{
+    padding: 1%;
+}
+
+.input-message-error {
+    display: none;
+}
+
+.input-container--invalid .input-message-error {
+    color: var(--second-color);
+    display: block;
+    margin-top: 0.5rem;
+    padding-left: 0.5rem;
+}
+
+.button{
+    border-color: var(--first-color);
+    color: var(--first-color);
+    background-color: black;
+    font-size: 150%;
+    padding: 1%;
+    margin: 5% 0 5% 45%;
+}*/
